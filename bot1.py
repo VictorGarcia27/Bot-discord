@@ -12,7 +12,7 @@ global ae1
 global ae2
 ae1 = 0
 ae2 = 0
-TOKEN = "Nzc4NjAyNTEwNjYzMDI0NjQw.X7UYGA.S8H6xhEO-HXqgKDp4f8fYO1MJJI"
+TOKEN = input("TOKEN : ")
 
 @bot.event
 async def on_ready():
