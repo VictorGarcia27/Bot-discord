@@ -12,7 +12,7 @@ global ae1
 global ae2
 ae1 = 0
 ae2 = 0
-TOKEN = os.getenv('DISCORD_TOKEN')
+TOKEN = os.getenv('TOKEN')
 
 @bot.event
 async def on_ready():
